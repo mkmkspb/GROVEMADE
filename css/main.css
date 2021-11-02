@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+a {
+	color: inherit;
+	font-family: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+    font-weight: inherit;
+}
+
+/* NAV */
+
+.container {
+    margin: 0 auto;
+    max-width: 1370px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-list {
+    display: flex;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.nav-item_left {
+    margin-right: 25px;
+}
+
+.header-logo {
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 504px;
+    background-image: url(../img/hero_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 43px;
+    text-align: center;
+}
+
+.hero-text {
+    margin-top: 12px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.to_do-link {
+    margin-top: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* DESIGN INSPIRES */
+
+.designs {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.section-title {
+    margin-top: 80px;
+    font-size: 43px;
+    text-align: center;
+}
+
+.section-text {
+    margin-top: 23px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #a0a0a0;
+    text-align: center;
+    max-width: 777px;
+    line-height: 1.5em;
+}
+
+.designs .to_do-link {
+    margin-top: 26px;
+    color: #000;
+}
+
+.designs-items {
+    margin-top: 55px;
+    display: flex;
+}
+
+.designs-item {
+    width: 50%;
+    margin: 25px 12.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designs-item:nth-child(2n+1) {
+    margin-left: 0;
+}
+
+.designs-item:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+.designs-item-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.designs-item-title {
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+.designs-item .to_do-link {
+    margin-top: 23px;
+}
+
+/* FEATURED PRODUCTS */
+
+.featured_products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dots {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    margin: 0 8px;
+}
+
+.featured_products-slider {
+    margin-top: 19px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.featured_products-item {
+    width: 25%;
+    margin: 0 12.5px;
+}
+
+.featured_products-item:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.featured_products-item:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.featured_products-item-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.featured_products-item-name {
+    margin-top: 23px;
+    color: #a0a0a0;
+}
+
+.featured_products-item-price {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #a0a0a0;
+    display: block;
+}
+
+/* HOME OFFICE INSPIRATION */
+
+.hero_second {
+    width: 100%;
+    height: 504px;
+    background-image: url(../img/hero_img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero_second .hero-title {
+    font-size: 66px;
+}
+
+.hero_second .hero-text {
+    font-size: 14px;
+}
+
+/* HARD WAY */
+
+.hard_way {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hard_way-image {
+    margin-top: 23px;
+    width: 75%;
+}
+
+.hard_way-image-item {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* TEAM */
+
+.team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-members {
+    margin-top: 68.5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 14.5%;
+    margin: 25px 12.5px 0;
+}
+
+.team-member:nth-child(6n+6) {
+    margin-right: 0;
+}
+
+.team-member:nth-child(6n+1) {
+    margin-left: 0;
+}
+
+.team-member-portrait {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* WISH */
+
+.wish {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+/* PROMO */
+
+.promo {
+    background-color: #9aa8b1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 145px;
+}
+
+.promo-logo {
+    width: 40px;
+    height: 34px;
+}
+
+.promo-title {
+    margin-top: 34px;
+    font-size: 43px;
+    color: #fff;
+}
+
+.promo-text {
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    margin-top: 23px;
+    color: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f9f9f9;
+    margin-top: 39px;
+    padding: 80px 50px 28px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-list {
+    font-size: 22px;
+    margin-right: 25px;
+}
+
+.info-item {
+    margin-bottom: 16px;
+}
+
+.signup-title {
+    font-size: 22px;
+}
+
+.signup {
+    max-width: 350px;
+}
+
+.signup-label {
+    display: block;
+    text-align: left;
+    margin-top: 23px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #a0a0a0;
+}
+
+.signup-form {
+    margin-top: 40px;
+    display: flex;
+}
+
+.signup-input {
+    flex: 1;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 0;
+    border: solid 1px #a0a0a0;
+    padding: 0 10px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.signup-button {
+    width: 120px;
+    height: 50px;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+    font-family: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.other {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+
+.other-item {
+    margin-left: 38px;
+    color: #707a7f;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
+
+.department_site {
+    color: #000;
+}
+
+/* GO UP BUTTON */
+.goup {
+    display: none;
+    width: 82px;
+    height: 82px;
+    right: 15px;
+	bottom: 419.25px;
+	position: fixed;
+	z-index: 100;
+    background-color: #000;
+}
+
+.goup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
