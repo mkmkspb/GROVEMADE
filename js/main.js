@@ -10,4 +10,18 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+goup.onclick = function () {
+	"use strict";
+	let count = 0;
 
+	const scrollInterval = setInterval(function () {
+		"use strict";
+
+		window.scrollTo(0, scrollY - count);
+		count++;
+
+		if (scrollY == 0) {
+			clearInterval(scrollInterval);
+		}
+	}, 10);
+};
