@@ -1,3 +1,26 @@
+// SLIDER
+
+$(document).ready(function(){
+	$('.featured_products-slider').slick({
+		arrows: true,
+		dots: true,
+		adaptiveHeigh: true,
+		slidesToShow: 4,	
+		slidesToScroll: 4,
+		speed: 700,
+		infinite: true,
+		autoplay: true,
+		pauseOnFocus: true,
+		pauseOnHover: true,
+		pauseOnDotsHover: true,
+		swipe: true,
+		touchThreshold: 15,
+		touchMove: true,
+	});
+});
+
+// GO UP BUTTON
+
 const goUpButton = document.getElementById("goup");
 
 window.addEventListener("scroll", function () {
@@ -24,4 +47,7 @@ goup.onclick = function () {
 			clearInterval(scrollInterval);
 		}
 	}, 10);
+
+
 };
+
