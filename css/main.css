@@ -242,12 +242,12 @@ h6 {
 
 .featured_products-slider .slick-arrow.slick-prev {
 	left: 0;
-	background-image: url(../img/sl-arrow_l.svg);
+	background-image: url(../img/slider/sl-arrow_l.svg);
 }
 
 .featured_products-slider .slick-arrow.slick-next {
 	right: 0;
-	background-image: url(../img/sl-arrow_r.svg);
+	background-image: url(../img/slider/sl-arrow_r.svg);
 }
 
 .featured_products-slider .slick-dots {
