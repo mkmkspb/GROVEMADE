@@ -35,9 +35,9 @@ h6 {
 
 .container {
 	margin: 0 auto;
-	max-width: 1370px;
-	padding-left: 15px;
-	padding-right: 15px;
+	max-width: 1540px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .nav {
@@ -66,6 +66,10 @@ h6 {
 	left: 0;
 	bottom: 0;
 	right: 0;
+}
+
+.header-logo--black {
+	display: none;
 }
 
 /* HERO */
@@ -166,6 +170,7 @@ h6 {
 .designs-item-title {
 	margin-top: 50px;
 	font-size: 27px;
+	text-align: center;
 }
 
 .designs-item .to_do-link {
@@ -296,10 +301,12 @@ h6 {
 
 .hero_second .hero-title {
 	font-size: 66px;
+	text-align: center;
 }
 
 .hero_second .hero-text {
 	font-size: 14px;
+	text-align: center;
 }
 
 /* HARD WAY */
@@ -381,6 +388,7 @@ h6 {
 	margin-top: 34px;
 	font-size: 43px;
 	color: #fff;
+	text-align: center;
 }
 
 .promo-text {
@@ -388,6 +396,7 @@ h6 {
 	letter-spacing: 0.05em;
 	margin-top: 23px;
 	color: #fff;
+	text-align: center;
 }
 
 /* FOOTER */
@@ -395,7 +404,7 @@ h6 {
 .footer {
 	background-color: #f9f9f9;
 	margin-top: 39px;
-	padding: 80px 50px 28px;
+	padding: 80px 0 28px;
 }
 
 .footer-block {
@@ -412,12 +421,12 @@ h6 {
 	margin-bottom: 16px;
 }
 
-.signup-title {
-	font-size: 22px;
-}
-
 .signup {
 	max-width: 350px;
+}
+
+.signup-title {
+	font-size: 22px;
 }
 
 .signup-label {
@@ -586,8 +595,8 @@ h6 {
 }
 
 @media (max-width: 576px) {
-	.team-member {
-		width: 25%;
+	.section-title {
+		margin-top: 40px;
 	}
 
 	.team-member:nth-child(6n + 6) {
@@ -612,5 +621,52 @@ h6 {
 	
 	.team-member:nth-child(3n + 1) {
 		margin-left: 12.5px;
+	}
+
+	.hard_way-image {
+		margin-top: 23px;
+		width: 100%;
+	}
+
+	.footer-block {
+		justify-content: space-between;
+	}
+	
+	.info-list {
+		margin-right: 10px;
+	}
+
+	.signup-form {
+		display: block;
+	}
+	
+	.signup-input {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.other {
+		justify-content: space-between;
+	}
+
+	.other-item {
+		margin-left: 5px;
+		font-size: 8px
+	}
+
+	.header-logo {
+		display: none;
+	}
+	
+	.header-logo--black {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+
+	.nav {
+		padding-left: 45px;
 	}
 }
