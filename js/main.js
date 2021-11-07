@@ -1,7 +1,7 @@
 // SLIDER
 
 $(document).ready(function(){
-	$('.featured_products-slider').slick({
+	$('.featured-products__slider').slick({
 		arrows: true,
 		dots: true,
 		adaptiveHeigh: true,
