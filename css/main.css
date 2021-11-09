@@ -52,10 +52,23 @@ h6 {
 	display: flex;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
+	flex: 0 1 50%;
 }
 
-.nav__item-left {
+.nav__list--left {
+	justify-content: flex-start;;
+}
+
+.nav__list--right {
+	justify-content: flex-end;;
+}
+
+.nav__item--left {
 	margin-right: 25px;
+}
+
+.nav__list--right {
+	margin-left: 25px;
 }
 
 .nav__link {
@@ -67,12 +80,9 @@ h6 {
 }
 
 .header__logo {
-	position: absolute;
-	margin: auto;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+	width: 200px;
+	flex: 0 0 200px;
+	margin: 0 10px;
 }
 
 .header__logo--black {
